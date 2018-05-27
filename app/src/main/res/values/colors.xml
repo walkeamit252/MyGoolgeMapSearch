@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#1b2133</color>
+    <color name="colorAccent">#1b2133</color>
+
+    <color name="txt_privacy_policy_color">#f7941d</color>
+    <color name="white">#ffffff</color>
+
+    <color name="fare_estimate_caolor">#b8e986</color>
+
+    <color name="button_color">#1b2133</color>
+    <color name="button_color_disabled">#c4c4c4</color>
+
+    <color name="button_color_pressed">#c4c4c4</color>
+    <color name="red">#E4002B</color>
+
+    <color name="black">#101010</color>
+    <color name="blue">#003da5</color>
+
+    <color name="color_header">#1b2133</color>
+    <color name="divider">#4c231f20</color>
+    <color name="divider_setting">#e8e8e8</color>
+
+    <color name="grey">#A6ACB8</color>
+    <color name="my_job_selected_tab">#f7941d</color>
+    <color name="my_job_unselected_tab">#3f3f3f</color>
+
+    <color name="my_job_date_time_color">#3f3f3f</color>
+    <color name="my_job_trip_name_color">#545454</color>
+    <color name="my_job_accept_trip">#33b24b</color>
+    <color name="my_job_cancel_trip">#f02b43</color>
+    <color name="my_job_accept_cancel_trip_divider">#eef0f4</color>
+
+    <color name="red_circle">#eb3434</color>
+    <color name="green_circle">#33b24b</color>
+
+    <color name="dashboard_item_title">#1b2133</color>
+    <color name="txt_timestamp_color">#111520</color>
+    <color name="txt_full_name_color">#1e1e1e</color>
+    <color name="txt_rate_your_ride">#000000</color>
+    <color name="dark_yellow">#f79520</color>
+
+    <color name="dark_grey">#aeaeae</color>
+    <color name="driver_availle">#47b14b</color>
+    <color name="driver_unavailble">#e9151b</color>
+
+    <color name="txt_color_vehicle_type_unselected">#b3b3b3</color>
+    <color name="txt_color_vehicle_type_selected">#000000</color>
+
+    <color name="radio_button_selected">#0a1734</color>
+    <color name="radio_button_unselected">#b5b5b5</color>
+
+    <!-- Track Driver Screen-->
+    <color name="track_driver_cancel_ride_button">#f7941d</color>
+    <color name="track_driver_time_arrived_bg">#f6f6f6</color>
+    <color name="track_driver_time_arrived_text">#8a8a8a</color>
+    <color name="track_driver_name">#1b1b24</color>
+    <color name="track_driver_address">#661b1b24</color>
+    <color name="track_driver_ratings_text">#1b2133</color>
+    <color name="track_driver_ratings_bg">#ffc000</color>
+    <color name="emergency_contact_bg">#f3f3f3</color>
+
+
+    <!-- Request Sent Popup -->
+    <color name="dialog_message_text">#f834394a</color>
+    <color name="dialog_btn_ok_text">#f7941d</color>
+    <color name="circle_driver_search_inner">#fc9134</color>
+    <color name="circle_driver_search_outer">#3A3330</color>
+
+
+    <!-- My bookings screen -->
+    <color name="my_bookings_bg">#eeeeee</color>
+    <color name="my_bookings_divider_bg">#b8b8b7</color>
+
+    <!-- Cancel bookings screen -->
+    <color name="cancel_bookings_bg">#f2f2f2</color>
+    <color name="cancel_bookings_text_color">#3f3f3f</color>
+    <color name="cancel_bookings_divider_color">#e1e1e1</color>
+
+    <!-- Current Job screen -->
+    <color name="current_job_name">#1b2133</color>
+    <color name="current_job_price">#3d3d3d</color>
+    <color name="rating_selected_yellow">#ffcc00</color>
+    <color name="rating_unselected_gray">#b7b7b7</color>
+    <color name="vertical_divider_buttons">#c8c8c8</color>
+    <color name="current_job_mins_away_bg">#f3f3f3</color>
+    <color name="current_job_circle_progress_finished_color">#d0021b</color>
+    <color name="change_number_color">#6b6b6b</color>
+
+    <!-- Manage card List screen -->
+    <color name="manage_card_list_item_bg">#1b2133</color>
+    <color name="manage_card_list_item_label">#A6ffffff</color>
+
+    <!-- Manage card Update screen -->
+    <color name="update_card_stripe_bg">#3e8ac6</color>
+    <color name="update_card_edittext_border">#b5b5b5</color>
+    <color name="update_card_label">#848484</color>
+    <color name="update_card_edittext_text">#2b2b2b</color>
+    <color name="update_card_edittext_hint">#332b2b2b</color>
+
+    <!-- Fare estimate screen-->
+    <color name="fare_estimate_pick_drop_address">#3d3d3d</color>
+    <color name="fare_estimate_charge_value">#2a2a2a</color>
+    <color name="fare_estimate_estimated_charges_label">#a9a9a9</color>
+    <color name="fare_estimate_fare_breakdown">#3a393a</color>
+    <color name="fare_estimate_initial_fare_label">#9b9b9b</color>
+    <color name="fare_estimate_fare_divider">#e0e0e0</color>
+    <color name="fare_estimate_address_divider">#e9e9e9</color>
+    <color name="fare_estimate_green_line">#46E151</color>
+    <color name="fare_estimate_red_line">#E80303</color>
+
+    <!-- My Profile screen-->
+    <color name="my_profile_name">#3f3f3f</color>
+    <color name="my_profile_divider">#80b3b3b3</color>
+</resources>

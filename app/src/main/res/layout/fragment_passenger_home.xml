@@ -1,0 +1,245 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+    <fragment
+        android:id="@+id/map_passenger_home"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context="com.example.currentplacedetailsonmap.MapsActivityCurrentPlace" />
+
+
+    <ImageView
+        android:id="@+id/img_address_pin"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_pic_location_center"
+        app:layout_constraintBottom_toTopOf="@+id/img_centerPos"
+        app:layout_constraintEnd_toEndOf="@+id/map_passenger_home"
+        app:layout_constraintStart_toStartOf="@+id/map_passenger_home"  />
+
+    <ImageView
+        android:id="@+id/img_centerPos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+        app:layout_constraintEnd_toEndOf="@+id/map_passenger_home"
+        app:layout_constraintStart_toStartOf="@+id/map_passenger_home"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/btn_ride_later"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_32"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/ride_later"
+        android:textAllCaps="false"
+        android:textColor="@color/txt_privacy_policy_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"  />
+
+    <Button
+        android:id="@+id/btn_ride_now"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/ride_now"
+        android:textColor="@color/txt_privacy_policy_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"  />
+
+
+    <View
+        android:id="@+id/vv_ride_now_later"
+        android:layout_width="@dimen/dp_1"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:elevation="@dimen/dp_2"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_ride_now"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/btn_ride_now" />
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_80"
+        app:layout_constraintBottom_toTopOf="@+id/btn_ride_now"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" >
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="@dimen/dp_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view_pick_loc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:dividerHeight="0.0px"
+                android:elevation="16dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="14dp"
+                app:cardElevation="16dp"
+                card_view:cardMaxElevation="10dp"
+                card_view:cardPreventCornerOverlap="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_rounded_rect_corner">
+
+
+                    <AutoCompleteTextView
+                        android:id="@+id/txt_book_a_car_pick_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/shape_green_cricle_8"
+                        android:drawablePadding="@dimen/sp_20"
+                        android:maxLines="1"
+                        android:padding="@dimen/dp_14"
+                        android:singleLine="true"
+                        android:layout_toLeftOf="@id/ibtn_clear_text_field"
+                        android:text="W Main St, duke east campus near Durham..."
+                        android:textColor="#33394a"
+                        android:textSize="@dimen/sp_14" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_clear_text_field"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@android:color/transparent"
+                        android:elevation="@dimen/dp_10"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_close_black" />
+
+
+                </RelativeLayout>
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view_drop_loc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_50"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="16dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="14dp"
+                app:cardElevation="16dp"
+                card_view:cardPreventCornerOverlap="false">
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/txt_book_a_car_drop_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_rounded_rect_corner"
+                    android:drawableLeft="@drawable/shape_red_circle_8"
+                    android:drawablePadding="@dimen/sp_20"
+                    android:maxLines="1"
+                    android:padding="@dimen/dp_14"
+                    android:paddingStart="@dimen/sp_26"
+                    android:singleLine="true"
+                    android:text="Enter Destination"
+                    android:textColor="#33394a"
+                    android:textSize="@dimen/sp_14" />
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </FrameLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/ibtn_goto_current_location"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginEnd="@dimen/dp_18"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibtn_emergency"
+        app:srcCompat="@drawable/track_driver_goto_current_location_normal" />
+
+    <ImageButton
+        android:id="@+id/ibtn_emergency"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginEnd="@dimen/dp_18"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        app:srcCompat="@drawable/track_driver_emergency_normal" />
+
+</android.support.constraint.ConstraintLayout>

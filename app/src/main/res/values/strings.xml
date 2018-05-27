@@ -1,0 +1,466 @@
+<resources>
+    <!--<string name="app_name">MiCab</string>-->
+
+
+    <!--Signup Activity-->
+    <string name="signup_first_name">First Name</string>
+    <string name="signup_last_name">Last Name</string>
+    <string name="signup_mobile_number">Mobile Number</string>
+    <string name="signup_email">Email Address</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_referral_code">Referral Code</string>
+    <string name="sign_up">SIGN UP</string>
+
+    <string name="app_name">MAP</string>
+
+    <string name="check_terms_privacy_policy_full_text">By Signing Up you agree to Terms &amp; Condition and Privacy Policy</string>
+    <string name="by_signing_up_txt">By Signing Up you agree to&#160;</string>
+    <string name="terms_of_use_txt">Terms &amp; Condition</string>
+    <string name="and">&#160;and&#160;</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="plz_upload_profile_pic">Profile picture is required.</string>
+    <string name="plz_enter_first_name">First name is required.</string>
+    <string name="plz_enter_first_name_within_range">First name should contain maximum 20 characters.</string>
+    <string name="plz_enter_last_name">Last name is required.</string>
+    <string name="plz_enter_last_name_within_range">Last name should contain maximum 20 characters.</string>
+
+
+    <string name="plz_enter_country_code">Please Enter Country Code</string>
+    <string name="plz_enter_phone_number">Mobile Number is required.</string>
+    <string name="plz_enter_valid_phone_number">Please enter valid mobile number.</string>
+    <string name="plz_enter_email">Email address is required.</string>
+    <string name="plz_enter_valid_email">Please enter valid email address.</string>
+    <string name="plz_enter_password">Password is required.</string>
+    <string name="plz_enter_valid_password">Password should contain ......</string>
+    <string name="plz_enter_valid_referal_code">Invalid referral code.</string>
+
+    <string name="plz_accept_terms_and_condition">Please accept the terms of use and privacy policy.</string>
+
+
+    <!--Splash Screen -->
+    <string name="splash_txt">An App that makes taxi booking experience quite awesome! </string>
+
+
+    <!--Login Screen-->
+    <string name="login_email_hint">Email</string>
+    <string name="login_email_phone_number_hint">Email / Mobile Number</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <string name="login">LOG IN</string>
+    <string name="login_create_new_account_option">Don’t have an account? </string>
+    <string name="login_alert_password_space">Space not allowed in password</string>
+    <string name="login_alert_enter_email">Please Enter Email-Id</string>
+    <string name="login_alert_enter_password">Please Enter Password</string>
+    <string name="login_signup_click">Sign up</string>
+    <string name="lgoin_error_msg_for_email_or_number">Please enter valid email or mobile number</string>
+    <string name="lgoin_error_msg_for_password">Please enter the valid password.</string>
+
+
+    <!--Run time Permission-->
+    <string name="required_permission">Required Permission</string>
+    <string name="access_permissions">%1$s requires access to your</string>
+    <string name="app_required_permissions">%1$s requires permission to Location, Camera, Phone storage and Phone state. Please enable these permissions from Settings->Apps->%2$s->Permissions</string>
+    <string name="ok">Ok</string>
+    <string name="camera">Camera</string>
+    <string name="storage">Storage</string>
+    <string name="location">Location</string>
+    <string name="camera_permission_alert">This would let you take photos and record videos.</string>
+    <string name="storage_permission_alert">This lets you share photos from your library and save photos to your camera roll.</string>
+    <string name="location_permission_alert">Taxi Pulse picks shipments exactly where you want it from. To start shipping, choose "Allow" so the app can find your location.</string>
+    <string name="phone_state_permission">Taxi Pulse require phone state permission to make and manage phone calls.</string>
+    <string name="read_contact_permission">Taxi Pulse require Read Contact permission to view contact list.</string>
+
+
+    <!--Image Capture and Crop-->
+    <string name="image_not_found">Cropped image not found.</string>
+    <string name="select_option">Select Option</string>
+    <string name="take_photo">Take a photo</string>
+    <string name="choose_from_gallery">Choose from gallery</string>
+    <string name="alert_title">Alert</string>
+
+
+    <string name="my_booking">MY BOOKINGS</string>
+    <string name="fare_estimate">FARE ESTIMATE</string>
+    <string name="emergency">EMERGENCY</string>
+    <string name="refer_friend">REFER FRIEND</string>
+    <string name="support">SUPPORT</string>
+    <string name="notification">NOTIFICATION</string>
+    <string name="settings">SETTINGS</string>
+
+
+    <string name="my_jobs">MY JOBS</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="tab_daily">Daily</string>
+    <string name="tab_weekly">Weekly</string>
+    <string name="tab_monthly">Monthly</string>
+    <string name="label_accept_trip">ACCEPT TRIP</string>
+    <string name="label_cancel_trip">CANCEL TRIP</string>
+
+    <!--Navigation Menu Item For Passenger-->
+    <string-array name="passenger_menu">
+        <item>MY BOOKINGS</item>
+        <item>FARE ESTIMATE</item>
+        <item>EMERGENCY</item>
+        <item>REFER FRIEND</item>
+        <item>SUPPORT</item>
+        <item>NOTIFICATION</item>
+        <item>SETTINGS</item>
+    </string-array>
+
+
+    <!--Navigation Menu Item For Driver-->
+    <string-array name="driver_menu">
+        <item>MY JOBS</item>
+        <item>DASHBOARD</item>
+        <item>SUPPORT</item>
+        <item>NOTIFICATION</item>
+        <item>SETTINGS</item>
+    </string-array>
+
+
+    <!--Forgot Password-->
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="forgot_password_enter_email">Enter your email/mobile number to receive your password reset instructions.</string>
+    <string name="forgot_password_submit">Submit</string>
+    <string name="forgot_password_email">Email / Mobile Number</string>
+
+    <!--OTP Verification-->
+    <string name="otp_verification">OTP Verification</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="otp_verification_msg_for_mobile">We have sent OTP on your registered mobile number. </string>
+    <string name="otp_verification_msg_for_email">We have sent OTP on your registered email </string>
+    <string name="otp_verification_not_received">Didn’t receive the OTP?</string>
+    <string name="otp_verification_resend"><u> Resend OTP</u></string>
+    <string name="error_email_mobile">Please Enter Email-Id/Mobile Number</string>
+    <string name="error_otp">Please Enter Valid OTP</string>
+    <string name="error_mobile_digit">Please Enter 10 Digit Mobile Number</string>
+    <string name="btn_change">CHANGE</string>
+    <string name="dialog_title_change_mobile">Change Mobile Number</string>
+    <string name="dialog_hint_change_mobile">Enter Mobile Number</string>
+
+    <!--Change Password-->
+    <string name="change_password">Change Password</string>
+    <string name="reset_password">Reset your password</string>
+    <string name="current_password">Current Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="confirm_password">Confirm New Password</string>
+    <string name="error_empty_current_password">Current password should not be empty.</string>
+    <string name="error_empty_new_password">New password should not be empty.</string>
+    <string name="error_empty_confirm_password">Confirm password should not be empty.</string>
+    <string name="error_password_mismatch">New password and confirmed password do not match.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+    <!--Dialog -->
+    <string name="enter_promo_code">Enter promo code</string>
+    <string name="promo_code">Promo Code</string>
+    <string name="enter_email_address">ENTER EMAIL ADDRESS</string>
+    <string name="email_address">Email Address</string>
+    <string name="cancel">Cancel</string>
+    <string name="apply_code">APPLY CODE</string>
+    <string name="title_activity_view_fare_estimate_popup">ViewFareEstimatePopupActivity</string>
+    <string name="send">SEND</string>
+
+
+    <!--Track driver-->
+    <string name="title_track_driver">Track Driver</string>
+    <string name="btn_cancel_ride">Cancel Ride</string>
+    <string name="msg_really_cancel_ride">Do your really want to cancel this ride?</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+
+    <!--Passenger Home fragment-->
+    <string name="ride_now">RIDE NOW</string>
+    <string name="ride_later">RIDE LATER</string>
+    <string name="availble_credits">Available credits $</string>
+
+
+    <!--Confirm booking-->
+    <string name="cnf_booking_payment_mode">PAYMENT MODE</string>
+    <string name="cnf_booking_apply_promo_code">APPLY PROMO CODE</string>
+    <string name="cnf_booking_date_and_time">Date &amp; Time</string>
+    <string name="cnf_booking_request_ride">REQUEST RIDE</string>
+    <string name="title_confirm_booking">CONFIRM BOOKING</string>
+
+    <!--Payment Receipt-->
+    <string name="payment_receipt_submit">Submit</string>
+    <string name="leave_comment">Leave a comment</string>
+    <string name="rate_ride">RATE YOUR RIDE</string>
+
+    <!-- Driver Home Screen -->
+    <string name="driver_on_duty_text">Driver is now on duty.</string>
+    <string name="driver_off_duty_text">Driver is currently off duty.</string>
+    <string name="driver_home_screen_nmae">TAXI PULSE</string>
+    <string name="driver_on_duty_confirmation_message">Do you want to Start Duty?</string>
+    <string name="driver_off_duty_confirmation_message">Do you want to change Duty?</string>
+
+
+    <!--Payment Mode Dialog-->
+    <string name="payment_mode">Payment Mode</string>
+    <string name="cash">Cash</string>
+    <string name="card">Card</string>
+    <string name="wallet">Wallet</string>
+
+
+    <!--Screen Title-->
+    <string name="toolbar_title_sign_up">SIGN UP</string>
+    <string name="toolbar_title_book_a_car">BOOK A CAR</string>
+    <string name="toolbar_title_confirm_booking">CONFIRM BOOKING</string>
+    <string name="toolbar_title_track_driver">TRACK DRIVER</string>
+    <string name="toolbar_title_payment_receipt">PAYMENT RECEIPT</string>
+    <string name="toolbar_title_my_bookings">MY BOOKINGS</string>
+    <string name="toolbar_title_emergency_contact">EMERGENCY CONTACT</string>
+    <string name="toolbar_title_refer_a_friend">REFER A FRIEND</string>
+    <string name="toolbar_title_settings">SETTINGS</string>
+    <string name="toolbar_title_taxi_pulse">TAXI PULSE</string>
+    <string name="toolbar_title_my_jobs">MY JOBS</string>
+    <string name="toolbar_title_dashboard">DASHBOARD</string>
+    <string name="toolbar_title_support">SUPPORT</string>
+    <string name="toolbar_title_notifications">NOTIFICATIONS</string>
+    <string name="toolbar_title_my_profile">MY PROFILE</string>
+    <string name="toolbar_title_about_us">ABOUT US</string>
+    <string name="toolbar_title_privacy_policy">PRIVACY POLICY</string>
+    <string name="toolbar_title_terms_and_conditon">TERMS &amp; CONDITION</string>
+    <string name="toolbar_title_add_contact">ADD CONTACT</string>
+    <string name="toolbar_title_cancel_booking">CANCEL BOOKING</string>
+    <string name="toolbar_title_current_job">Current Job</string>
+    <string name="toolbar_title_manage_card">Manage card</string>
+    <string name="toolbar_title_fare_estimate">Fare estimate</string>
+
+    <!-- Driver MyJob Screen -->
+    <string name="driver_my_job_screen_name">My Jobs</string>
+    <string name="driver_my_job_screen_not_implemented_message">Activity has not implemented MyJobFragmentInteraction.</string>
+
+
+    <!--Reffer A Friend-->
+    <string name="reffer_friend_earns_free_ride">Earn Free Rides</string>
+    <string name="reffer_friend_earns_free_ride_worth">Earn free rides worth $5 each Share your referral code now!</string>
+    <string name="reffer_friend_refferal_code">Refferal code</string>
+    <string name="reffer_friend_invite_friends">INVITES FRIENDS</string>
+    <string name="reffer_friend_no_referral_code">You don\'t have refferal code</string>
+    <string name="reffer_code">TESTCODE</string>
+
+
+    <!--Emergency Contact-->
+    <string name="emerg_cont_no_record_found">No Contact Added</string>
+    <string name="emerg_cont_always_share_your_trip_detail">Always share your trip details</string>
+    <string name="emerg_cont_you_can_add_message">You can add count more contacts </string>
+    <string name="emerg_cont_add_contact">ADD CONTACTS</string>
+    <string name="emerg_cont_save_contact">SAVE</string>
+    <string name="emerg_cont_delete">Delete</string>
+    <string name="emerg_cont_search_contact">Search contact</string>
+
+
+    <!-- Navigation -->
+    <string name="clear_all">ClearAll</string>
+    <string name="select_years">Select year</string>
+
+    <string-array name="year">
+        <item>2018</item>
+        <item>2019</item>
+    </string-array>
+
+    <!--Trip Receipt-->
+    <string name="rated_ride">You rated your ride</string>
+    <string name="fare">Fare</string>
+    <string name="taxes">Taxes</string>
+    <string name="total_bill">Total Bill</string>
+    <string name="paid_by">Paid By</string>
+
+    <!-- Request Sent Popup -->
+    <string name="message_cab_request_sent">Cab request sent successfully.</string>
+    <string name="btn_ok">Ok</string>
+
+    <!-- My bookings screen -->
+    <string name="tab_history">HISTORY</string>
+    <string name="tab_upcoming">UPCOMING</string>
+    <string name="driver_my_bookings_screen_not_implemented_message">Activity has not implemented MyBookingsFragmentInteraction.</string>
+    <string name="terms_and_condition">Terms And Condition</string>
+    <string name="aboutus">AboutUs</string>
+    <string name="help">Help</string>
+    <string name="logout">Sign Out</string>
+    <string name="share">Share</string>
+    <string name="push_notification">Push Notification</string>
+    <string name="profile">Profile</string>
+    <string name="account">Account</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="vehicle_type">vehicle type</string>
+    <string name="average_rating_given_by_passenger">Average Rating Given By Passenger</string>
+
+    <string name="something_went_wrong">Something went wrong</string>
+
+    <!--Reset Password-->
+    <string name="btn_reset_password">Reset Password</string>
+    <!-- Cancel Booking scren -->
+    <string name="label_medical_emergency">Medical Emergency</string>
+    <string name="label_vehicle_issue_taxi_puncher">Vehicle Issue / Taxi Puncher</string>
+    <string name="label_accidents">Accidents</string>
+    <string name="label_passenger_did_not_arrive">Passenger did not arrive</string>
+    <string name="label_passenger_cancelled_booking">Passenger cancelled booking</string>
+    <string name="label_other">Other</string>
+    <string name="label_submit">SUBMIT</string>
+
+    <string-array name="array_country_code">
+        <item>91</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>120</item>
+    </string-array>
+
+    <!--Manage Cards-->
+    <string name="manage_cards">Manage Card</string>
+
+    <!-- Current Job screen -->
+    <string name="label_estimated_charge">Estimated Charge</string>
+    <string name="label_reject">REJECT</string>
+    <string name="label_accept">ACCEPT</string>
+    <string name="label_cancel">CANCEL</string>
+    <string name="label_call">CALL</string>
+    <string name="label_arrived">ARRIVED</string>
+    <string name="label_start">START</string>
+    <string name="label_end_trip">End Trip</string>
+    <string name="label_start_trip">Start Trip</string>
+    <string name="msg_sure_to_start_this_trip">Are you sure you want to start this trip?</string>
+    <string name="msg_sure_to_end_this_trip">Are you sure you want to end this trip?</string>
+
+
+    <!-- Notification screen -->
+    <string name="no_notification_found">No Notification Found</string>
+    <string name="all_notification_deleted_success_message">All notifications are deleted Successfully</string>
+
+    <string name="logout_confirm_message">Do you want to logout?</string>
+
+    <string name="share_text_subject">Ride With TaxiPulse App</string>
+    <!-- Manage card List screen -->
+    <string name="label_edit">Edit</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_card_holder">Card Holder</string>
+    <string name="label_expiry">Expiry</string>
+    <string name="btn_add_card">ADD CARD</string>
+
+    <!-- Manage card Update screen -->
+    <string name="label_card_number">Card Number</string>
+    <string name="label_card_name">Card Name</string>
+    <string name="label_expiry_date">Expiry Date</string>
+    <string name="label_cvv">CVV</string>
+    <string name="hint_month_year">Month / Year</string>
+    <string name="btn_update_card">UPDATE CARD</string>
+
+    <!--Driver Search Screen-->
+    <string name="search_driver_cancle_ride">CANCEL RIDE</string>
+    <string name="search_driver_estimate_fare">Estimate Fare :</string>
+
+
+    <!-- Fare estimate screen-->
+    <string name="btn_calculate_fare">CALCULATE FARE</string>
+    <string name="label_estimated_charges">(Estimated Charges)</string>
+    <string name="label_fare_breakdown">Fare Breakdown</string>
+    <string name="label_initial_fare">Initial Fare</string>
+    <string name="label_initial_distance">Initial Distance</string>
+    <string name="label_per_km_fare">Per Km Fare</string>
+    <string name="label_per_min_fare">Per Min Fare</string>
+
+    <!-- My Profile screen-->
+    <string name="btn_save">Save</string>
+
+    <!--Location-->
+    <string name="location_unavailable">Location not found</string>
+    <string name="unknown_location">Location is unknown</string>
+    <string name="gps_offline_msg">Please enable GPS</string>
+    <string name="location_permission">Please allow app to access your location to locate cars.</string>
+    <string name="select_location">Select Location</string>
+    <string name="enter_your_pick_up_location">Enter pick up location.</string>
+    <string name="enter_your_drop_up_location">Enter Drop up location.</string>
+    <string name="please_select_destination_location">Please select destination location</string>
+    <string name="please_select_pickup_location">Please select pickup location</string>
+    <string name="txt_allow">Allow</string>
+    <string name="pic_up_title">SELECT SOURCE</string>
+    <string name="drop_title">SELECT DESTINATION</string>
+    <string name="btn_done">DONE</string>
+
+</resources>
